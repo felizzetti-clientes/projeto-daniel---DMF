@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Button, Eyebrow, Reveal, WordReveal } from "@/components/ui";
-import { FlowDiagram } from "@/components/FlowDiagram";
+import { OrbitPanel } from "@/components/OrbitPanel";
 import { SolutionIcon } from "@/components/SolutionIcon";
 import { Cta } from "@/components/Cta";
 import { HeroFibers } from "@/components/HeroFibers";
@@ -39,7 +39,7 @@ export default function Home() {
               </div>
             </Reveal>
           </div>
-          <Reveal delay={0.35}><FlowDiagram /></Reveal>
+          <Reveal delay={0.35}><OrbitPanel /></Reveal>
         </div>
       </section>
 
